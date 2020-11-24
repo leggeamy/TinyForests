@@ -8,7 +8,7 @@
 
 body {
   font-family: montserrat;
-  background-color: rgb(43, 42, 42);
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 /* 
@@ -18,25 +18,24 @@ header {
   flex-wrap: wrap;
 } */
 
-#header{
-  background-image: url("./images/tiny-forests-header.png");
-  filter: grayscale(100);
+/* #header{
+  background-image: url("./images/tiny_forests_logo.JPG");
   width: 100%;
   height: auto;
   background-size: cover;
-}
+} */
 
-h1 {
+/* h1 {
   color: white;
   font-family: teko;
   font-weight: 600;
   font-size: 100px;
   font-weight: bold;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+} */
 
 h2 {
-  color: white;
+  color: black;
   font-family: montserrat;
   font-size: 36px;
   font-weight: lighter;
@@ -45,7 +44,7 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: black;
   font-family: montserrat;
   font-size: 24px;
   font-weight: bold;
@@ -53,7 +52,7 @@ h3 {
 }
 
 h4 {
-  color: white;
+  color: black;
   font-family: montserrat;
   font-size: 18px;
   font-weight: lighter;
@@ -64,7 +63,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   display: block;
   align-items: center;
   font-family: montserrat;
@@ -101,7 +100,7 @@ nav ul li a:hover {
 
 p {
   font-family: montserrat;
-  color: white;
+  color: black;
   padding: 30px;
 }
 
